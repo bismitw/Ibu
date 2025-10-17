@@ -22,40 +22,38 @@ nav{
     
 }
 
-.nav-part2{
+.nav-part2 {
+padding: 10px;
+}
+
+.nav-part2 ul {
+    list-style-type: none;
     display: flex;
-    gap: 2vw;
-}
-
-.nav-part2 h4{
-    font-size: 1vw;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-nav:hover #nav-bottom{
-    height: 100%;
-    bottom: -100%;
-
-}
-
-#nav-bottom{
-    /* background-color: #FF2B00; */
-    height: 0%;
-    position: absolute;
-    width: 79%;
-    bottom: 0%;
-    border-bottom: 1px solid #dadada;
-    transition: all ease 0.65s;
-    display: flex;
-    align-items: flex-start;
     justify-content: space-between;
-    padding: 2vw 15vw;
-    padding-left: 18vw;
+    margin: 0;
+    padding: 0;
 }
-.bottom-div{
-    background-color:red;
+.nav-part2 li{
+    margin-bottom: 12px;
+    display: inline;
 
 }
+.nav-part2 a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 5px 15px;
+}
+.nav-part2 .login-btn{
+    padding: 8px 17px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:30px;
+
+}
+
 #page1{
     height: 100vh;
     width: 100%;
